@@ -6,7 +6,7 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 
 2- Film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
 
-* SELECT * FROM film WHERE title LIKE 'C%' ;
+* SELECT COUNT(*) FROM film WHERE title LIKE 'C%' ;
 
 3- Film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?
  
